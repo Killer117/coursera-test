@@ -26,7 +26,7 @@ h1{
   color: #4a3f35;
   font-style: oblique;
   font-weight: 900;
-  font-size: 2.3vw;
+  font-size: 2vw;
   margin: 1% 0.5% 0.5% 0.5%;
 
 }
@@ -48,7 +48,7 @@ h1{
   font-family: serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 2.5vw;
+  font-size: 2.4vw;
   color: #1f4068;
 
 }
@@ -74,10 +74,15 @@ h1{
   .col-md-3{
     width: 99%;
   }
+  *{
+    font-size: 2.7vw;
+  }
 }
 @media (max-width:767px) {
   .Dish_section{
     width:99%;
+  }
+  *{
     font-size: 2.8vw;
   }
 }
